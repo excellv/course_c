@@ -72,3 +72,5 @@ group :test do
 end
   gem "cssbundling-rails"
   gem "jsbundling-rails"
+  gem "haml-rails"
+  gem "html2haml"
