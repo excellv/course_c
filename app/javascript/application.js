@@ -2,4 +2,8 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 import * as bootstrap from "bootstrap"
-import "@fortawesome/font-awesome/css/all"
+import "@fortawesome/font-awesome/css/all"import "trix"
+require('stylesheets/application.scss')
+import "trix"
+import "@rails/actiontext"
+
