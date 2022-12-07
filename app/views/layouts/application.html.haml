@@ -14,5 +14,7 @@
     %link{:href => "https://unpkg.com/trix@2.0.0/dist/trix.css", :rel => "stylesheet", :type => "text/css"}/
     %script{:src => "https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js", :type => "text/javascript"}
   %body
-    %i.fa-solid.fa-house
-    = yield
+  = render 'layouts/header'
+  %p.notice= notice
+  %p.alert= alert
+  = yield

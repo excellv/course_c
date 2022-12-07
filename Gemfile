@@ -76,3 +76,5 @@ end
   gem "html2haml"
   gem "simple_form"
   gem "actiontext"
+  gem "faker"
+  gem "devise"
